@@ -1,4 +1,15 @@
 IosAndroid::Application.routes.draw do
+  get "questions/Q1"
+  get "questions/Q2"
+  get "questions/Q3"
+  get "questions/Q4"
+  get "questions/Q5"
+  get "questions/Q6"
+  get "questions/Q7"
+  get "questions/Q8"
+  get "questions/Q9"
+  get "questions/Q10"
+  root to: "start#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
